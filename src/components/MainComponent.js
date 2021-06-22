@@ -7,7 +7,7 @@ import { CAMPSITES } from '../shared/campsites';
 
 class Main extends Component {
   constructor(props) {
-    super(props);
+    super(props);    
     this.state = {
       campsites: CAMPSITES,
       selectedCampsite: null
@@ -33,5 +33,6 @@ class Main extends Component {
     );
   }
 }
+
 
 export default Main;
